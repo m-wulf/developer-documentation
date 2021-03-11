@@ -2,7 +2,7 @@
 
 A Field Type must contain a Type class which contains the logic of the Field Type: validating data, transforming from various formats, describing the validators, etc.
 A Type class must implement `eZ\Publish\SPI\FieldType\FieldType` ("Field Type interface").
-All native Field Types also extend the `eZ\Publish\SPI\FieldType\FieldType` abstract class that implements this interface and provides implementation facilities through a set of abstract methods of its own.
+All native Field Types also extend the `eZ\Publish\Core\FieldType\FieldType` abstract class that implements this interface and provides implementation facilities through a set of abstract methods of its own.
 
 You should also provide a Value object class for storing the custom Field value provided by the Field Type.
 The Value is used to represent an instance of the Field Type within a Content item.
