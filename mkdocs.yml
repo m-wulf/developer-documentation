@@ -125,6 +125,8 @@ nav:
                - 'User Field Type': 'api/field_types_reference/userfield.md'
                - 'VariantType': 'api/field_types_reference/varianttype.md'
                - 'XmlText Field Type': 'api/field_types_reference/xmltextfield.md'
+            - 'Create custom Field Type': 'extending/extending_field_type.md'
+            - 'Create custom Field Type comparison': 'extending/custom_fieldtype_comparison.md'
         - GraphQL:
             - 'GraphQL': 'api/graphql.md'
             - 'GraphQL queries': 'api/graphql_queries.md'
@@ -185,12 +187,25 @@ nav:
                 - 'Customize basket': 'guide/content_rendering/layout/customize_basket.md'
         - Content management:
             - 'Content management': 'guide/content_management.md'
-            - 'Images': 'guide/images.md'
-            - 'Configuring the Image Editor': 'guide/image_editor.md'
+            - Images:
+                - 'Images': 'guide/images.md'
+                - 'Configure the Image Editor': 'guide/image_editor.md'
+                - 'Extend Image Editor': 'extending/extending_image_editor.md'
+            - Rich Text:
+                - 'Extend Online Editor': 'extending/extending_online_editor.md'
+                - 'Create custom RichText blocks': 'extending/richtext_block.md'
+                - 'Create Online Editor button': 'extending/online_editor_button.md'
+                - 'Create Online Editor plugin': 'extending/online_editor_plugin.md'
             - 'File management': 'guide/file_management.md'
+            - Page:
+                - 'Page blocks': ''
+                - 'Create custom Page block': 'extending/extending_page.md'
+            - 'Extend Form Builder': 'extending/extending_form_builder.md'
+            - Workflow:
+                - 'Editorial workflow': 'guide/workflow.md'
+                - 'Extend Workflow': 'extending/extending_workflow.md'
             - 'URL management': 'guide/url_management.md'
             - 'User-generated content': 'guide/user_generated_content.md'
-            - 'Editorial workflow': 'guide/workflow.md'
         - Permissions:
             - 'Permissions': 'guide/permissions.md'
             - 'Limitations': 'guide/limitations.md'
@@ -494,39 +509,29 @@ nav:
             - 'Reporting Issues': 'guide/reporting_issues.md'
         - 'Notifications': 'guide/sending_notifications.md'
         - 'Service container': 'guide/service_container.md'
-    - Extending Ibexa DXP:
-        - Extending Back Office:
-            - 'Extending Back Office': 'extending/extending_back_office.md'
-            - 'Reusable Back Office templates': 'extending/reusable_back_office_templates.md'
-            - 'Extending Dashboard': 'extending/extending_dashboard.md'
-            - 'Extending Menus': 'extending/extending_menus.md'
-            - 'Extending tabs': 'extending/extending_tabs.md'
-            - 'Extending settings': 'extending/extending_settings.md'
-            - 'Extending date and time': 'extending/extending_date_and_time.md'
-            - 'Creating custom Page blocks': 'extending/extending_page.md'
-            - 'Creating custom RichText blocks': 'extending/richtext_block.md'
-            - 'Creating custom drop-downs': 'extending/creating_custom_dropdowns.md'
-            - 'Creating custom icons': 'extending/custom_icons.md'
-            - 'Extending thumbnails': 'extending/extending_thumbnails.md'
-            - 'Injecting custom components': 'extending/custom_components.md'
+    - Extend Back Office:
+        - 'Back Office': 'extending/extending_back_office.md'
+        - Back Office elements:
+            - 'Reusable components': 'extending/reusable_back_office_templates.md'
+            - 'Custom drop-downs': 'extending/creating_custom_dropdowns.md'
+            - 'Custom icons': 'extending/custom_icons.md'
+            - 'Create drag and drop': 'extending/drag_and_drop.md'
+            - 'Custom components': 'extending/custom_components.md'
             - 'Import assets from a bundle': 'extending/import_assets_from_bundle.md'
-        - 'Extending Form Builder': 'extending/extending_form_builder.md'
-        - 'Extending Workflow': 'extending/extending_workflow.md'
-        - 'Extending Calendar': 'extending/customizing_calendar.md'
-        - 'Extending Image Editor': 'extending/extending_image_editor.md'
-        - 'Extending Online Editor':
-            - 'Extending Online Editor': 'extending/extending_online_editor.md'
-            - 'Creating Online Editor button': 'extending/online_editor_button.md'
-            - 'Creating Online Editor plugin': 'extending/online_editor_plugin.md'
-        - 'Extending Modules':
-            - 'Extending UDW': 'extending/extending_udw.md'
-            - 'Creating a UDW tab': 'extending/adding_tab_to_udw.md'
-            - 'Extending Multi-file Upload': 'extending/extending_multifile_upload.md'
-            - 'Extending Sub-items List': 'extending/extending_subitems_list.md'
-            - 'Creating drag and drop interface': 'extending/drag_and_drop.md'
-        - 'Field Types':
-            - 'Creating custom Field Type': 'extending/extending_field_type.md'
-            - 'Creating custom Field Type comparison': 'extending/custom_fieldtype_comparison.md'
+        - 'Extend dashboard with X': 'extending/extending_dashboard.md'
+        - Back Office menus:
+            - 'Back Office menus': 'extending/extending_menus.md'
+            - 'Extend menu X': ''
+        - Back office tabs:
+            - 'Back office tabs': 'extending/extending_tabs.md'
+            - 'Add tab to X': ''
+        - 'Add setting': 'extending/extending_settings.md'
+        - 'Add events to calendar': 'extending/customizing_calendar.md'
+        - Browser:
+            - 'Browser': 'extending/extending_udw.md'
+            - 'Add browser tab': 'extending/adding_tab_to_udw.md'
+        - 'Multi-file upload': 'extending/extending_multifile_upload.md'
+        - 'Sub-items list': 'extending/extending_subitems_list.md'
     - Resources and community:
         - 'Resources': 'community_resources/resources.md'
         - 'Release process and roadmap': 'community_resources/release_process.md'
